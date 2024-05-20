@@ -1,0 +1,1049 @@
+# exclude node_modules folders inside the subfolders
+# Ignore node_modules folders inside the subfolders
+**/node_modules
+
+# Ignore build artifacts
+**/build
+
+# Ignore test coverage reports
+**/coverage
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore local environment files
+.env
+.env.*
+
+# Ignore compiled TypeScript files
+**/*.js
+**/*.d.ts
+
+# Ignore compiled JavaScript files
+**/*.js.map
+
+# Ignore compiled Sass files
+**/*.css
+**/*.css.map
+
+# Ignore compiled Less files
+**/*.css
+**/*.css.map
+
+# Ignore compiled Stylus files
+**/*.css
+**/*.css.map
+
+# Ignore compiled CoffeeScript files
+**/*.js
+**/*.js.map
+
+# Ignore compiled LiveScript files
+**/*.js
+**/*.js.map
+
+# Ignore compiled Jade files
+**/*.html
+
+# Ignore compiled Pug files
+**/*.html
+
+# Ignore compiled EJS files
+**/*.html
+
+# Ignore compiled Nunjucks files
+**/*.html
+
+# Ignore compiled Handlebars files
+**/*.html
+
+# Ignore compiled Mustache files
+**/*.html
+
+# Ignore compiled Twig files
+**/*.html
+
+# Ignore compiled Markdown files
+**/*.html
+
+# Ignore compiled AsciiDoc files
+**/*.html
+
+# Ignore compiled Textile files
+**/*.html
+
+# Ignore compiled reStructuredText files
+**/*.html
+
+# Ignore compiled HTML files
+**/*.html
+
+# Ignore compiled PHP files
+**/*.php
+
+# Ignore compiled Python files
+**/*.pyc
+
+# Ignore compiled Ruby files
+**/*.rbc
+
+# Ignore compiled Go files
+**/*.go
+
+# Ignore compiled Java files
+**/*.class
+
+# Ignore compiled C# files
+**/*.dll
+
+# Ignore compiled C++ files
+**/*.o
+
+# Ignore compiled Swift files
+**/*.swiftmodule
+
+# Ignore compiled Objective-C files
+**/*.o
+
+# Ignore compiled Rust files
+**/*.rlib
+
+# Ignore compiled D files
+**/*.d
+
+# Ignore compiled Vala files
+**/*.vapi
+
+# Ignore compiled Haskell files
+**/*.hi
+
+# Ignore compiled OCaml files
+**/*.cmi
+
+# Ignore compiled F# files
+**/*.exe
+
+# Ignore compiled Elm files
+**/*.js
+
+# Ignore compiled Crystal files
+**/*.o
+
+# Ignore compiled Zig files
+**/*.o
+
+# Ignore compiled Julia files
+**/*.ji
+
+# Ignore compiled Nim files
+**/*.nim
+
+# Ignore compiled Elixir files
+**/*.beam
+
+# Ignore compiled Erlang files
+**/*.beam
+
+# Ignore compiled Clojure files
+**/*.clj
+
+# Ignore compiled Scala files
+**/*.class
+
+# Ignore compiled Kotlin files
+**/*.class
+
+# Ignore compiled Groovy files
+**/*.class
+
+# Ignore compiled Ceylon files
+**/*.class
+
+# Ignore compiled Dart files
+**/*.dill
+
+# Ignore compiled R files
+**/*.rds
+
+# Ignore compiled Stata files
+**/*.dta
+
+# Ignore compiled SAS files
+**/*.sas7bdat
+
+# Ignore compiled SPSS files
+**/*.sav
+
+# Ignore compiled MATLAB files
+**/*.mat
+
+# Ignore compiled Octave files
+**/*.mat
+
+# Ignore compiled Mathematica files
+**/*.nb
+
+# Ignore compiled Maple files
+**/*.mw
+
+# Ignore compiled Scilab files
+**/*.sci
+
+# Ignore compiled IDL files
+**/*.sav
+
+# Ignore compiled Weka files
+**/*.model
+
+# Ignore compiled KNIME files
+**/*.knime
+
+# Ignore compiled Orange files
+**/*.ows
+
+# Ignore compiled RapidMiner files
+**/*.rmp
+
+# Ignore compiled TensorFlow files
+**/*.pb
+
+# Ignore compiled PyTorch files
+**/*.pt
+
+# Ignore compiled Keras files
+**/*.h5
+
+# Ignore compiled Caffe files
+**/*.caffemodel
+
+# Ignore compiled MXNet files
+**/*.params
+
+# Ignore compiled CNTK files
+**/*.model
+
+# Ignore compiled Theano files
+**/*.npz
+
+# Ignore compiled Lasagne files
+**/*.pkl
+
+# Ignore compiled Torch files
+**/*.t7
+
+# Ignore compiled Chainer files
+**/*.h5
+
+# Ignore compiled TensorFlow Lite files
+**/*.tflite
+
+# Ignore compiled ONNX files
+**/*.onnx
+
+# Ignore compiled Core ML files
+**/*.mlmodel
+
+# Ignore compiled TensorFlow.js files
+**/*.bin
+
+# Ignore compiled PyTorch.js files
+**/*.pt
+
+# Ignore compiled TensorFlow.js Layers files
+**/*.bin
+
+# Ignore compiled TensorFlow.js Converter files
+**/*.bin
+
+# Ignore compiled ML.NET files
+**/*.zip
+
+# Ignore compiled scikit-learn files
+**/*.pkl
+
+# Ignore compiled XGBoost files
+**/*.model
+
+# Ignore compiled LightGBM files
+**/*.model
+
+# Ignore compiled CatBoost files
+**/*.cbm
+
+# Ignore compiled H2O files
+**/*.h2o
+
+# Ignore compiled Spark MLlib files
+**/*.parquet
+
+# Ignore compiled Vowpal Wabbit files
+**/*.vw
+
+# Ignore compiled LibSVM files
+**/*.model
+
+# Ignore compiled Shogun files
+**/*.svm
+
+# Ignore compiled Weka files
+**/*.model
+
+# Ignore compiled KNIME files
+**/*.knime
+
+# Ignore compiled Orange files
+**/*.ows
+
+# Ignore compiled RapidMiner files
+**/*.rmp
+
+# Ignore compiled TensorFlow files
+**/*.pb
+
+# Ignore compiled PyTorch files
+**/*.pt
+
+# Ignore compiled Keras files
+**/*.h5
+
+# Ignore compiled Caffe files
+**/*.caffemodel
+
+# Ignore compiled MXNet files
+**/*.params
+
+# Ignore compiled CNTK files
+**/*.model
+
+# Ignore compiled Theano files
+**/*.npz
+
+# Ignore compiled Lasagne files
+**/*.pkl
+
+# Ignore compiled Torch files
+**/*.t7
+
+# Ignore compiled Chainer files
+**/*.h5
+
+# Ignore compiled TensorFlow Lite files
+**/*.tflite
+
+# Ignore compiled ONNX files
+**/*.onnx
+
+# Ignore compiled Core ML files
+**/*.mlmodel
+
+# Ignore compiled TensorFlow.js files
+**/*.bin
+
+# Ignore compiled PyTorch.js files
+**/*.pt
+
+# Ignore compiled TensorFlow.js Layers files
+**/*.bin
+
+# Ignore compiled TensorFlow.js Converter files
+**/*.bin
+
+# Ignore compiled ML.NET files
+**/*.zip
+
+# Ignore compiled scikit-learn files
+**/*.pkl
+
+# Ignore compiled XGBoost files
+**/*.model
+
+# Ignore compiled LightGBM files
+**/*.model
+
+# Ignore compiled CatBoost files
+**/*.cbm
+
+# Ignore compiled H2O files
+**/*.h2o
+
+# Ignore compiled Spark MLlib files
+**/*.parquet
+
+# Ignore compiled Vowpal Wabbit files
+**/*.vw
+
+# Ignore compiled LibSVM files
+**/*.model
+
+# Ignore compiled Shogun files
+**/*.svm
+
+# Ignore compiled Weka files
+**/*.model
+
+# Ignore compiled KNIME files
+**/*.knime
+
+# Ignore compiled Orange files
+**/*.ows
+
+# Ignore compiled RapidMiner files
+**/*.rmp
+
+# Ignore compiled TensorFlow files
+**/*.pb
+
+# Ignore compiled PyTorch files
+**/*.pt
+
+# Ignore compiled Keras files
+**/*.h5
+
+# Ignore compiled Caffe files
+**/*.caffemodel
+
+# Ignore compiled MXNet files
+**/*.params
+
+# Ignore compiled CNTK files
+**/*.model
+
+# Ignore compiled Theano files
+**/*.npz
+
+# Ignore compiled Lasagne files
+**/*.pkl
+
+# Ignore compiled Torch files
+**/*.t7
+
+# Ignore compiled Chainer files
+**/*.h5
+
+# Ignore compiled TensorFlow Lite files
+**/*.tflite
+
+# Ignore compiled ONNX files
+**/*.onnx
+
+# Ignore compiled Core ML files
+**/*.mlmodel
+
+# Ignore compiled TensorFlow.js files
+**/*.bin
+
+# Ignore compiled PyTorch.js files
+**/*.pt
+
+# Ignore compiled TensorFlow.js Layers files
+**/*.bin
+
+# Ignore compiled TensorFlow.js Converter files
+**/*.bin
+
+# Ignore compiled ML.NET files
+**/*.zip
+
+# Ignore compiled scikit-learn files
+**/*.pkl
+
+# Ignore compiled XGBoost files
+**/*.model
+
+# Ignore compiled LightGBM files
+**/*.model
+
+# Ignore compiled CatBoost files
+**/*.cbm
+
+# Ignore compiled H2O files
+**/*.h2o
+
+# Ignore compiled Spark MLlib files
+**/*.parquet
+
+# Ignore compiled Vowpal Wabbit files
+**/*.vw
+
+# Ignore compiled LibSVM files
+**/*.model
+
+# Ignore compiled Shogun files
+**/*.svm
+
+# Ignore compiled Weka files
+**/*.model
+
+# Ignore compiled KNIME files
+**/*.knime
+
+# Ignore compiled Orange files
+**/*.ows
+
+# Ignore compiled RapidMiner files
+**/*.rmp
+
+# Ignore compiled TensorFlow files
+**/*.pb
+
+# Ignore compiled PyTorch files
+**/*.pt
+
+# Ignore compiled Keras files
+**/*.h5
+
+# Ignore compiled Caffe files
+**/*.caffemodel
+
+# Ignore compiled MXNet files
+**/*.params
+
+# Ignore compiled CNTK files
+**/*.model
+
+# Ignore compiled Theano files
+**/*.npz
+
+# Ignore compiled Lasagne files
+**/*.pkl
+
+# Ignore compiled Torch files
+**/*.t7
+
+# Ignore compiled Chainer files
+**/*.h5
+
+# Ignore compiled TensorFlow Lite files
+**/*.tflite
+
+# Ignore compiled ONNX files
+**/*.onnx
+
+# Ignore compiled Core ML files
+**/*.mlmodel
+
+# Ignore compiled TensorFlow.js files
+**/*.bin
+
+# Ignore compiled PyTorch.js files
+**/*.pt
+
+# Ignore compiled TensorFlow.js Layers files
+**/*.bin
+
+# Ignore compiled TensorFlow.js Converter files
+**/*.bin
+
+# Ignore compiled ML.NET files
+**/*.zip
+
+# Ignore compiled scikit-learn files
+**/*.pkl
+
+# Ignore compiled XGBoost files
+**/*.model
+
+# Ignore compiled LightGBM files
+**/*.model
+
+# Ignore compiled CatBoost files
+**/*.cbm
+
+# Ignore compiled H2O files
+**/*.h2o
+
+# Ignore compiled Spark MLlib files
+**/*.parquet
+
+# Ignore compiled Vowpal Wabbit files
+**/*.vw
+
+# Ignore compiled LibSVM files
+**/*.model
+
+# Ignore compiled Shogun files
+**/*.svm
+
+# Ignore compiled Weka files
+**/*.model
+
+# Ignore compiled KNIME files
+**/*.knime
+
+# Ignore compiled Orange files
+**/*.ows
+
+# Ignore compiled RapidMiner files
+**/*.rmp
+
+# Ignore compiled TensorFlow files
+**/*.pb
+
+# Ignore compiled PyTorch files
+**/*.pt
+
+# Ignore compiled Keras files
+**/*.h5
+
+# Ignore compiled Caffe files
+**/*.caffemodel
+
+# Ignore compiled MXNet files
+**/*.params
+
+# Ignore compiled CNTK files
+**/*.model
+
+# Ignore compiled Theano files
+**/*.npz
+
+# Ignore compiled Lasagne files
+**/*.pkl
+
+# Ignore compiled Torch files
+**/*.t7
+
+# Ignore compiled Chainer files
+**/*.h5
+
+# Ignore compiled TensorFlow Lite files
+**/*.tflite
+
+# Ignore compiled ONNX files
+**/*.onnx
+
+# Ignore compiled Core ML files
+**/*.mlmodel
+
+# Ignore compiled TensorFlow.js files
+**/*.bin
+
+# Ignore compiled PyTorch.js files
+**/*.pt
+
+# Ignore compiled TensorFlow.js Layers files
+**/*.bin
+
+# Ignore compiled TensorFlow.js Converter files
+**/*.bin
+
+# Ignore compiled ML.NET files
+**/*.zip
+
+# Ignore compiled scikit-learn files
+**/*.pkl
+
+# Ignore compiled XGBoost files
+**/*.model
+
+# Ignore compiled LightGBM files
+**/*.model
+
+# Ignore compiled CatBoost files
+**/*.cbm
+
+# Ignore compiled H2O files
+**/*.h2o
+
+# Ignore compiled Spark MLlib files
+**/*.parquet
+
+# Ignore compiled Vowpal Wabbit files
+**/*.vw
+
+# Ignore compiled LibSVM files
+**/*.model
+
+# Ignore compiled Shogun files
+**/*.svm
+
+# Ignore compiled Weka files
+**/*.model
+
+# Ignore compiled KNIME files
+**/*.knime
+
+# Ignore compiled Orange files
+**/*.ows
+
+# Ignore compiled RapidMiner files
+**/*.rmp
+
+# Ignore compiled TensorFlow files
+**/*.pb
+
+# Ignore compiled PyTorch files
+**/*.pt
+
+# Ignore compiled Keras files
+**/*.h5
+
+# Ignore compiled Caffe files
+**/*.caffemodel
+
+# Ignore compiled MXNet files
+**/*.params
+
+# Ignore compiled CNTK files
+**/*.model
+
+# Ignore compiled Theano files
+**/*.npz
+
+# Ignore compiled Lasagne files
+**/*.pkl
+
+# Ignore compiled Torch files
+**/*.t7
+
+# Ignore compiled Chainer files
+**/*.h5
+
+# Ignore compiled TensorFlow Lite files
+**/*.tflite
+
+# Ignore compiled ONNX files
+**/*.onnx
+
+# Ignore compiled Core ML files
+**/*.mlmodel
+
+# Ignore compiled TensorFlow.js files
+**/*.bin
+
+# Ignore compiled PyTorch.js files
+**/*.pt
+
+# Ignore compiled TensorFlow.js Layers files
+**/*.bin
+
+# Ignore compiled TensorFlow.js Converter files
+**/*.bin
+
+# Ignore compiled ML.NET files
+**/*.zip
+
+# Ignore compiled scikit-learn files
+**/*.pkl
+
+# Ignore compiled XGBoost files
+**/*.model
+
+# Ignore compiled LightGBM files
+**/*.model
+
+# Ignore compiled CatBoost files
+**/*.cbm
+
+# Ignore compiled H2O files
+**/*.h2o
+
+# Ignore compiled Spark MLlib files
+**/*.parquet
+
+# Ignore compiled Vowpal Wabbit files
+**/*.vw
+
+# Ignore compiled LibSVM files
+**/*.model
+
+# Ignore compiled Shogun files
+**/*.svm
+
+# Ignore compiled Weka files
+**/*.model
+
+# Ignore compiled KNIME files
+**/*.knime
+
+# Ignore compiled Orange files
+**/*.ows
+
+# Ignore compiled RapidMiner files
+**/*.rmp
+
+# Ignore compiled TensorFlow files
+**/*.pb
+
+# Ignore compiled PyTorch files
+**/*.pt
+
+# Ignore compiled Keras files
+**/*.h5
+
+# Ignore compiled Caffe files
+**/*.caffemodel
+
+# Ignore compiled MXNet files
+**/*.params
+
+# Ignore compiled CNTK files
+**/*.model
+
+# Ignore compiled Theano files
+**/*.npz
+
+# Ignore compiled Lasagne files
+**/*.pkl
+
+# Ignore compiled Torch files
+**/*.t7
+
+# Ignore compiled Chainer files
+**/*.h5
+
+# Ignore compiled TensorFlow Lite files
+**/*.tflite
+
+# Ignore compiled ONNX files
+**/*.onnx
+
+# Ignore compiled Core ML files
+**/*.mlmodel
+
+# Ignore compiled TensorFlow.js files
+**/*.bin
+
+# Ignore compiled PyTorch.js files
+**/*.pt
+
+# Ignore compiled TensorFlow.js Layers files
+**/*.bin
+
+# Ignore compiled TensorFlow.js Converter files
+**/*.bin
+
+# Ignore compiled ML.NET files
+**/*.zip
+
+# Ignore compiled scikit-learn files
+**/*.pkl
+
+# Ignore compiled XGBoost files
+**/*.model
+
+# Ignore compiled LightGBM files
+**/*.model
+
+# Ignore compiled CatBoost files
+**/*.cbm
+
+# Ignore compiled H2O files
+**/*.h2o
+
+# Ignore compiled Spark MLlib files
+**/*.parquet
+
+# Ignore compiled Vowpal Wabbit files
+**/*.vw
+
+# Ignore compiled LibSVM files
+**/*.model
+
+# Ignore compiled Shogun files
+**/*.svm
+
+# Ignore compiled Weka files
+**/*.model
+
+# Ignore compiled KNIME files
+**/*.knime
+
+# Ignore compiled Orange files
+**/*.ows
+
+# Ignore compiled RapidMiner files
+**/*.rmp
+
+# Ignore compiled TensorFlow files
+**/*.pb
+
+# Ignore compiled PyTorch files
+**/*.pt
+
+# Ignore compiled Keras files
+**/*.h5
+
+# Ignore compiled Caffe files
+**/*.caffemodel
+
+# Ignore compiled MXNet files
+**/*.params
+
+# Ignore compiled CNTK files
+**/*.model
+
+# Ignore compiled Theano files
+**/*.npz
+
+# Ignore compiled Lasagne files
+**/*.pkl
+
+# Ignore compiled Torch files
+**/*.t7
+
+# Ignore compiled Chainer files
+**/*.h5
+
+# Ignore compiled TensorFlow Lite files
+**/*.tflite
+
+# Ignore compiled ONNX files
+**/*.onnx
+
+# Ignore compiled Core ML files
+**/*.mlmodel
+
+# Ignore compiled TensorFlow.js files
+**/*.bin
+
+# Ignore compiled PyTorch.js files
+**/*.pt
+
+# Ignore compiled TensorFlow.js Layers files
+**/*.bin
+
+# Ignore compiled TensorFlow.js Converter files
+**/*.bin
+
+# Ignore compiled ML.NET files
+**/*.zip
+
+# Ignore compiled scikit-learn files
+**/*.pkl
+
+# Ignore compiled XGBoost files
+**/*.model
+
+# Ignore compiled LightGBM files
+**/*.model
+
+# Ignore compiled CatBoost files
+**/*.cbm
+
+# Ignore compiled H2O files
+**/*.h2o
+
+# Ignore compiled Spark MLlib files
+**/*.parquet
+
+# Ignore compiled Vowpal Wabbit files
+**/*.vw
+
+# Ignore compiled LibSVM files
+**/*.model
+
+# Ignore compiled Shogun files
+**/*.svm
+
+# Ignore compiled Weka files
+**/*.model
+
+# Ignore compiled KNIME files
+**/*.knime
+
+# Ignore compiled Orange files
+**/*.ows
+
+# Ignore compiled RapidMiner files
+**/*.rmp
+
+# Ignore compiled TensorFlow files
+**/*.pb
+
+# Ignore compiled PyTorch files
+**/*.pt
+
+# Ignore compiled Keras files
+**/*.h5
+
+# Ignore compiled Caffe files
+**/*.caffemodel
+
+# Ignore compiled MXNet files
+**/*.params
+
+# Ignore compiled CNTK files
+**/*.model
+
+# Ignore compiled Theano files
+**/*.npz
+
+# Ignore compiled Lasagne files
+**/*.pkl
+
+# Ignore compiled Torch files
+**/*.t7
+
+# Ignore compiled Chainer files
+**/*.h5
+
+# Ignore compiled TensorFlow Lite files
+**/*.tflite
+
+# Ignore compiled ONNX files
+**/*.onnx
+
+# Ignore compiled Core ML files
+**/*.mlmodel
+
+# Ignore compiled TensorFlow.js files
+**/*.bin
+
+# Ignore compiled PyTorch.js files
+**/*.pt
+
+# Ignore compiled TensorFlow.js Layers files
+**/*.bin
+
+# Ignore compiled TensorFlow.js Converter files
+**/*.bin
+
+# Ignore compiled ML.NET files
+**/*.zip
+
+# Ignore compiled scikit-learn files
+**/*.pkl
+
+# Ignore compiled XGBoost files
+**/*.model
+
+# Ignore compiled LightGBM files
+**/*.model
+
+# Ignore compiled CatBoost files
+**/*.cbm
+
+# Ignore compiled H2O files
+**/*.h2o
+
+# Ignore compiled Spark MLlib files
+**/*.parquet
+
+# Ignore compiled Vowpal Wabbit files
+**/*.vw
+
+# Ignore compiled LibSVM files
+**/*.model
+
+# Ignore compiled Shogun files
+**/*.svm
+
+# Ignore compiled Weka files
+**/*.model
+
+# Ignore compiled KNIME files
+**/*.knime
+
+# Ignore compiled Orange files
+**/*.ows
+
+# Ignore compiled RapidMiner files
+**/*.rmp
+
+# Ignore compiled TensorFlow files
+**/*.pb
+
+# Ignore compiled PyTorch files
+
