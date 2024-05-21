@@ -15,7 +15,7 @@ router.post('/api/users/signup', [
   .isLength({ min: 6 })
   .withMessage('Password must be at least 6 characters')
 ], 
-(req: Request, res: Response) => {
+async (req: Request, res: Response) => {
   const errors = validationResult(req)
   if (!errors.isEmpty()) {
     throw new RequestValidationError(errors.array())
