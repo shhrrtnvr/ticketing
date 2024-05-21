@@ -23,7 +23,8 @@ async (req: Request, res: Response) => {
   const { email, password } = req.body
 
   console.log('Connecting to database...')
-  throw new Error()
+  throw new DatabaseConnectionError()
+
 
   res.json({ message: 'Signup successful' })
   console.log(email, password)
