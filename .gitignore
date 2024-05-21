@@ -16,6 +16,9 @@
 .env
 .env.*
 
+# Ignore secrets
+*.secret
+
 # Ignore compiled TypeScript files
 **/*.js
 **/*.d.ts
