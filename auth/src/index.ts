@@ -2,6 +2,7 @@ import express from 'express'
 import 'express-async-errors'
 import { json } from 'body-parser'
 import mongoose from 'mongoose'
+import cookieSession from 'cookie-session'
 
 import { healthRouter } from './routes/health'
 import { currentUserRouter } from './routes/current-user'
@@ -12,7 +13,16 @@ import { errorHandler } from './middlewares/error-handlers'
 import { NotFoundError } from './errors/not-found-error'
 
 const app = express()
+app.set('trust proxy', true)
+
 app.use(json())
+app.use(
+  cookieSession({
+    signed: false,
+    secure: true,
+  })
+)
+
 
 app.use(healthRouter)
 app.use(currentUserRouter)
