@@ -10,7 +10,6 @@ beforeAll(async () => {
   mongoServer = new MongoMemoryServer();
   await mongoServer.start();
   const mongoUri = await mongoServer.getUri();
-  mongoose.set('debug', true);
   await mongoose.connect(mongoUri, { })
   .then(() => console.log("MongoDB successfully connected"))
   .catch(err => console.error("MongoDB connection error:", err));;
