@@ -19,9 +19,10 @@ export default ({ url, method, body, onSuccess }) => {
         <div className="alert alert-danger">
           <h4 className="alert-heading">Error</h4>
           <ul>
-            {err.response.data.errors.map((error) => (
-              <li key={error.message}>{error.message}</li>
-            ))}
+            {err.response &&
+              err.response.data.errors.map((error) => (
+                <li key={error.message}>{error.message}</li>
+              ))}
           </ul>
         </div>
       );
