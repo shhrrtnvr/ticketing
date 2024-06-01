@@ -5,6 +5,7 @@ import Jwt from 'jsonwebtoken';
 
 declare global {
     var signin: () => string[];
+    var generateId: () => string;
 }
 
 
@@ -38,7 +39,7 @@ afterAll(async () => {
 
 global.signin = () => {
   const payload = {
-    id: '1',
+    id: new mongoose.Types.ObjectId().toHexString(),
     email: 'test@test.com'
   }
 
@@ -51,4 +52,8 @@ global.signin = () => {
   const base64 = Buffer.from(sessionJSON).toString('base64');
 
   return [`session=${base64}`];
+};
+
+global.generateId = () => {
+  return new mongoose.Types.ObjectId().toHexString();
 };

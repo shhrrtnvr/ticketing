@@ -32,7 +32,7 @@ async (req: Request, res: Response) => {
   })
   await ticket.save()
 
-  res.status(201).send(ticket)
+  res.status(201).json(ticket)
 })
 
 export { router as createTicketRouter}
