@@ -21,4 +21,4 @@
 
 .next
 
-./nats-test
+nats-test/
