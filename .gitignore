@@ -20,3 +20,5 @@
 *.secret
 
 .next
+
+./nats-test
