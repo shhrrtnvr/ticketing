@@ -33,6 +33,14 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
+    - image: shhrrtnvr/expiration
+      context: expiration
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: 'src/**/*.ts'
+            dest: .
     - image: shhrrtnvr/client
       context: client
       docker:
@@ -41,5 +49,3 @@ build:
         manual:
           - src: '**/*.js'
             dest: .
-  
-
