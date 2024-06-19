@@ -2,10 +2,9 @@ import mongoose from 'mongoose';
 import { MongoMemoryServer } from 'mongodb-memory-server';
 import Jwt from 'jsonwebtoken';
 
-
 declare global {
-    var signin: () => string[];
-    var generateId: () => string;
+  var signin: (id?: string) => string[];
+  var generateId: () => string;
 }
 
 jest.mock('../nats-wrapper');
@@ -16,13 +15,14 @@ beforeAll(async () => {
     const mongoServer = new MongoMemoryServer();
     await mongoServer.start();
     const mongoUri = await mongoServer.getUri();
-    await mongoose.connect(mongoUri, { })
-    .then(() => console.log("MongoDB successfully connected"))
-    .catch(err => console.error("MongoDB connection error:", err));;
+    await mongoose
+      .connect(mongoUri, {})
+      .then(() => console.log('MongoDB successfully connected'))
+      .catch((err) => console.error('MongoDB connection error:', err));
   } catch (err) {
     console.error('Error connecting to MongoDB:', err);
   }
-}); 
+});
 
 beforeEach(async () => {
   jest.clearAllMocks();
@@ -38,11 +38,11 @@ afterAll(async () => {
   await mongoose.connection.close();
 });
 
-global.signin = () => {
+global.signin = (id?: string) => {
   const payload = {
-    id: new mongoose.Types.ObjectId().toHexString(),
-    email: 'test@test.com'
-  }
+    id: id !== null ? id : new mongoose.Types.ObjectId().toHexString(),
+    email: 'test@test.com',
+  };
 
   const token = Jwt.sign(payload, process.env.JWT_KEY!);
 
