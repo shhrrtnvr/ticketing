@@ -31,7 +31,6 @@ beforeEach(async () => {
 });
 
 afterAll(() => {
-  mongoose.connection.db.dropDatabase();
   mongoose.connection.close();
 });
 
