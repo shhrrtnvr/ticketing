@@ -3,26 +3,24 @@ import request from 'supertest';
 import { MongoMemoryServer } from 'mongodb-memory-server';
 import { app } from '../app';
 
-
 declare global {
-    var signup: () => Promise<string[]>;
+  var signup: () => Promise<string[]>;
 }
-
 
 beforeAll(async () => {
   process.env.JWT_KEY = 'secret';
-  const mongoUri = 'mongodb://0.0.0.0:27017/test-auth';
   try {
     const mongoServer = new MongoMemoryServer();
     await mongoServer.start();
     const mongoUri = await mongoServer.getUri();
-    await mongoose.connect(mongoUri, { })
-    .then(() => console.log("MongoDB successfully connected"))
-    .catch(err => console.error("MongoDB connection error:", err));;
+    await mongoose
+      .connect(mongoUri, {})
+      .then(() => console.log('MongoDB successfully connected'))
+      .catch((err) => console.error('MongoDB connection error:', err));
   } catch (err) {
     console.error('Error connecting to MongoDB:', err);
   }
-}); 
+});
 
 beforeEach(async () => {
   const collections = await mongoose.connection.db.collections();
@@ -45,7 +43,7 @@ global.signup = async () => {
     .post('/api/users/signup')
     .send({
       email,
-      password
+      password,
     })
     .expect(201);
 
