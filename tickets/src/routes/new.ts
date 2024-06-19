@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
 import { body, validationResult } from 'express-validator';
-import { requireAuth } from '@shhrrtnvrtickets/common';
+import { requireAuth, validateRequest } from '@shhrrtnvrtickets/common';
 import { Ticket } from '../models/ticket';
 import { TicketCreatedPublisher } from '../events/publishers/ticket-created-publisher';
 import { natsWrapper } from '../nats-wrapper';
@@ -16,12 +16,9 @@ router.post(
       .isFloat({ gt: 0 })
       .withMessage('Price must be greater than 0'),
   ],
+  validateRequest,
   async (req: Request, res: Response) => {
     const errors = validationResult(req);
-
-    if (!errors.isEmpty()) {
-      return res.status(400).json({ errors: errors.array() });
-    }
 
     const { title, price } = req.body;
 
