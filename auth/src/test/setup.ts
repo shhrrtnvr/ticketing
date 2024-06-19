@@ -30,9 +30,9 @@ beforeEach(async () => {
   }
 });
 
-afterAll(async () => {
-  await mongoose.connection.db.dropDatabase();
-  await mongoose.connection.close();
+afterAll(() => {
+  mongoose.connection.db.dropDatabase();
+  mongoose.connection.close();
 });
 
 global.signup = async () => {
